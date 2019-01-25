@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ad-bar.component.html',
   styleUrls: ['./ad-bar.component.css']
 })
-export class AdBarComponent implements OnInit {
+export class AdBarComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

@@ -1,38 +1,47 @@
-#pic{
+#pic
+{
   width: 100%;
 }
 
-#pic1{
+#pic1
+{
   width: 90%;
 }
 
-.down2 {
+.down2 
+{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-60%, -40%);
 }
 
-.down2{
+.down2
+{
   background-color: black;
   color: white;
 }
 
-.laptop{
+.laptop
+{
   width: 80%;
 }
 
-.lg{
+.lg
+{
   width: 5%;
 }
 
-#sm {
+#sm
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-#sm a {
+
+#sm a 
+{
   padding: 8px;
   color: black;
 }

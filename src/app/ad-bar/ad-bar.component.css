@@ -1,35 +1,44 @@
-#pic{
+#pic
+{
   width: 110%;
-  
 }
-.centered {
+
+.centered 
+{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-70%, -610%);
 }
-.down1 {
+
+.down1 
+{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-60%, -600%);
 }
-.down2 {
+
+.down2 
+{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-60%, -40%);
 }
-.text{
+
+.text
+{
   color:black;
 }
-.down1{
 
-}
-.down2{
+.down2
+{
   background-color: black;
   color: white;
 }
-.laptop{
+
+.laptop
+{
   width: 80%;
 }

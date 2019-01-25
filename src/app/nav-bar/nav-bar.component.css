@@ -1,13 +1,20 @@
-#mic{
+#mic
+{
   width: 15%;
 }
-.allmic{
+
+.allmic
+{
   float: right;
 }
-#ad1{
+
+#ad1
+{
   width: 20%;
 }
-a {
+
+a 
+{
   padding: 8px;
   color: black;
 }
