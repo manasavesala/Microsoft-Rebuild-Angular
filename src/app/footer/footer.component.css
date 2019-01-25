@@ -31,3 +31,10 @@ li{
   width: 5%;
   padding-right:10px;
  }
+ .foot,.foot1{
+  padding-right: 9px;
+  font-size: 12px;
+ }
+ a{
+  color: black;
+ }
