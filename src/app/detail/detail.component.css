@@ -3,7 +3,7 @@
 }
 
 #pic1{
-  width: 100%;
+  width: 90%;
 }
 
 .down2 {
@@ -20,5 +20,20 @@
 
 .laptop{
   width: 80%;
+}
+
+.lg{
+  width: 5%;
+}
+
+#sm {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#sm a {
+  padding: 8px;
+  color: black;
 }
 

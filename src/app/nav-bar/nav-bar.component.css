@@ -1,23 +1,14 @@
 #mic{
   width: 15%;
 }
-li{
-  display: inline;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li a {
-  padding: 8px;
-  color: black;
-}
 .allmic{
   float: right;
 }
 #ad1{
   width: 20%;
+}
+a {
+  padding: 8px;
+  color: black;
 }
 
