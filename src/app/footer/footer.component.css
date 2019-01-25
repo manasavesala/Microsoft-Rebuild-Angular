@@ -1,16 +1,10 @@
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 50px;
   grid-auto-rows: minmax(100px, auto);
-  width: 50%;
+  width: 65%;
   margin: auto;
-
-
-}
-
-.column{
-  padding: 10px;
 }
 
 li{
@@ -32,4 +26,8 @@ li{
    opacity: .5;
    font-size: 13px;
    text-align: center;
+ }
+ #world{
+  width: 5%;
+  padding-right:10px;
  }
