@@ -1,5 +1,5 @@
 #mic{
-  width: 10%;
+  width: 15%;
 }
 li{
   display: inline;
@@ -14,7 +14,10 @@ li a {
   padding: 8px;
   color: black;
 }
-#allmic{
+.allmic{
   float: right;
+}
+#ad1{
+  width: 20%;
 }
 

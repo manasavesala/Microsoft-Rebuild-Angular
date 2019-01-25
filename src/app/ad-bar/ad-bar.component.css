@@ -1,0 +1,31 @@
+#pic{
+  width: 110%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -200%);
+}
+.down1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -130%);
+}
+.down2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-370%, -40%);
+}
+.text{
+  color:black;
+}
+.down1{
+
+}
+.down2{
+  background-color: black;
+  color: white;
+}
