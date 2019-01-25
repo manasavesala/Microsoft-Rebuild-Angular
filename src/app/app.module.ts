@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AdBarComponent } from './ad-bar/ad-bar.component';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
+import { TabComponent } from './tab/tab.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     NavBarComponent,
     AdBarComponent,
     DetailComponent,
-    FooterComponent
+    FooterComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule
