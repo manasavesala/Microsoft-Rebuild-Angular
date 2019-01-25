@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.column{
+  padding: 10px;
+}
+
+li{
+  font-size: 10px;
+  color: #505256;
+  list-style-type: none;
+  padding: 5px;
+
+}
+ h5{
+   font-size: 11px;
+ }
+
+ .lines{
+   background-color: #eff0f2;
+ }
+
+ .op{
+   opacity: .5;
+   font-size: 13px;
+   text-align: center;
+ }
