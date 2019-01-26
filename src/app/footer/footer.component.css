@@ -1,4 +1,5 @@
-.wrapper {
+.wrapper 
+{
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 50px;
@@ -7,34 +8,45 @@
   margin: auto;
 }
 
-li{
+li
+{
   font-size: 10px;
   color: #505256;
   list-style-type: none;
   padding: 5px;
 
 }
- h5{
-   font-size: 11px;
- }
 
- .lines{
-   background-color: #eff0f2;
- }
+h5
+{
+  font-size: 11px;
+}
 
- .op{
-   opacity: .5;
-   font-size: 13px;
-   text-align: center;
- }
- #world{
+.lines
+{
+  background-color: #eff0f2;
+}
+
+
+a{
+  color: black;
+}
+
+.op
+{
+  opacity: .5;
+  font-size: 13px;
+  text-align: center;
+}
+
+#world
+{
   width: 5%;
   padding-right:10px;
- }
- .foot,.foot1{
+}
+
+.foot,.foot1
+{
   padding-right: 9px;
   font-size: 12px;
- }
- a{
-  color: black;
- }
+}
