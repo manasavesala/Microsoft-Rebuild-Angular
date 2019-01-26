@@ -8,11 +8,11 @@
 
 _This is an application that rebuilds Microsoft main page using Angular._
 
-# MicrosoftRebuild
+## MicrosoftRebuild
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-### Specifications
+## Specifications
 _Separate application into components._
 _Create basic structure of application._
 
@@ -46,7 +46,7 @@ _Contact Manasa Vesala - vesalamanasa@gmail.com_
 * _GitHub_
 * _HTML_
 
-### License
+## License
 
 *This software is licensed under the MIT license.*
 
