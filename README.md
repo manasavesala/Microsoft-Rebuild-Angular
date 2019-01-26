@@ -1,27 +1,53 @@
+# _Doctor Lookup_
+
+#### _single Webpage for Epicodus,javascript Week 3 project. 01.25.2019_
+
+#### By _**Manasa Vesala**_
+
+## Description
+
+_This is an application that rebuilds Microsoft main page using Angular._
+
 # MicrosoftRebuild
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+### Specifications
+_Separate application into components._
+_Create basic structure of application._
+
+## Setup/Installation Requirements
+
+* _Install Node.js_
+* _Open Mac Terminal or Windows Command Prompt._
+* _Install Typescript through this command: "npm install -g typescript"._
+* _Install Angular CLI through this command: "npm install -g @angular/cli"._
+* _Clone this repository https://github.com/manasavesala/Microsoft-Rebuild-Angular.git_
+* _Type "cd Microsoft-Rebuild-Angular" and press enter to go to the main directory._
+* _Type "npm install" and press enter to install plugins and dependencies._
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Support and contact details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Contact Manasa Vesala - vesalamanasa@gmail.com_
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Technologies Used
 
-## Running unit tests
+* _TypeScript_
+* _node.js_
+* _npm_
+* _Angular_
+* _sublime_
+* _Git_
+* _GitHub_
+* _HTML_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### License
 
-## Running end-to-end tests
+*This software is licensed under the MIT license.*
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2019 **_Manasa Vesala_**
