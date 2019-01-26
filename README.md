@@ -1,6 +1,6 @@
-# _Doctor Lookup_
+# _Microsoft Rebuild_
 
-#### _single Webpage for Epicodus,javascript Week 3 project. 01.25.2019_
+#### _Single Webpage for Epicodus,javascript Week 3 project. 01.25.2019_
 
 #### By _**Manasa Vesala**_
 
