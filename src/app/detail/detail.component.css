@@ -5,7 +5,7 @@
 
 #pic1
 {
-  width: 90%;
+  width: 100%;
 }
 
 .down2 
@@ -46,3 +46,9 @@
   color: black;
 }
 
+#petition
+{
+  margin-top: -220px;
+  color: white;
+  padding-bottom: 60px;
+}
