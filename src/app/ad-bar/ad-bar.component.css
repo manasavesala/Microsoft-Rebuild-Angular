@@ -3,12 +3,11 @@
   width: 110%;
 }
 
-.centered 
-{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-120%, -610%);
+.pro{
+  margin-top: -350px;
+  text-align: left;
+  color: white;
+  margin-bottom: 400px;
 }
 
 .down1 

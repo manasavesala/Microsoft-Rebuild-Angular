@@ -1,6 +1,6 @@
 # _Microsoft Rebuild_
 
-#### _Single Webpage for Epicodus,javascript Week 3 project. 01.25.2019_
+#### _Single Webpage for Epicodus,javascript Week 3 project. 01.25.2019, Updated 02.01.2019_
 
 #### By _**Manasa Vesala**_
 
@@ -12,7 +12,7 @@ _This is an application that rebuilds Microsoft main page using Angular._
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Specifications
+## Layout of the page
 _Separate application into components._
 _Create basic structure of application._
 
