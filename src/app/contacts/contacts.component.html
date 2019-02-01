@@ -5,11 +5,11 @@
         <div class="linkColor">
             <h3 (click)="goToDetailPage(contact)"><em>{{contact.name}}</em></h3><br>
         </div>
-        <!-- <div *ngIf="currentRoute === '/admin'">
+        <div *ngIf="currentRoute === '/admin'">
             {{contact.name}}
             <hr>
-            <app-edit [selectedContact]="contact"></app-edit>
-        </div> -->
+            <app-edit-contact [selectedContact]="contact"></app-edit-contact>
+        </div>
     </div>
   </div>
 </div>

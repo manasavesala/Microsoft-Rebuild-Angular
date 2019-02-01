@@ -19,5 +19,11 @@ export class ContactService {
   addContact(newContact: Contact){
     this.contacts.push(newContact);
   }
+  updateContact(localUpdatedContact){
+    var contactEntryInFirebase = this.getContactById(localUpdatedContact.$key);
+    contactEntryInFirebase.update({name: localUpdatedContact.name,
+                                email: localUpdatedContact.email,
+                                phone: localUpdatedContact.phone});
+  }
 
 }

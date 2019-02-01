@@ -19,6 +19,7 @@ import { ContactDetailsComponent } from './contact-details/contact-details.compo
 import { AdminComponent } from './admin/admin.component';
 import { ContactService } from './contact.service';
 import { FormsModule } from '@angular/forms';
+import { EditContactComponent } from './edit-contact/edit-contact.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -39,7 +40,8 @@ export const firebaseConfig = {
     WindowsComponent,
     ContactsComponent,
     ContactDetailsComponent,
-    AdminComponent
+    AdminComponent,
+    EditContactComponent
   ],
   imports: [
     BrowserModule,

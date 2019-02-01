@@ -1,0 +1,16 @@
+<h4>Edit Contact</h4>
+
+<label>New Contact Name:</label>
+<input [(ngModel)]="selectedContact.name">
+<br>
+
+<label>New Contact Email:</label>
+<input [(ngModel)]="selectedContact.email">
+<br>
+
+<label>New Contact Phone:</label>
+<input [(ngModel)]="selectedContact.phone">
+
+<button (click)="beginUpdatingContact(selectedContact)">Update</button>
+<hr>
+<button (click)="beginDeletingContact(selectedContact)">Delete</button>
