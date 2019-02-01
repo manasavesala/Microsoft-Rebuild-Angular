@@ -20,6 +20,7 @@ import { AdminComponent } from './admin/admin.component';
 import { ContactService } from './contact.service';
 import { FormsModule } from '@angular/forms';
 import { EditContactComponent } from './edit-contact/edit-contact.component';
+import { SurfaceComponent } from './surface/surface.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -41,7 +42,8 @@ export const firebaseConfig = {
     ContactsComponent,
     ContactDetailsComponent,
     AdminComponent,
-    EditContactComponent
+    EditContactComponent,
+    SurfaceComponent
   ],
   imports: [
     BrowserModule,

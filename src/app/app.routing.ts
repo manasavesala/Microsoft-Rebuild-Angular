@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MixComponent } from './mix/mix.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { SurfaceComponent } from './surface/surface.component';
 import { WindowsComponent} from './windows/windows.component';
 import { ContactsComponent} from './contacts/contacts.component';
 import { AdminComponent} from './admin/admin.component';
@@ -25,6 +26,10 @@ const appRoutes: Routes = [
     {
         path:'contacts',
         component:ContactsComponent   
+     },
+     {
+        path:'surface',
+        component:SurfaceComponent   
      },
      {
         path:'admin',
