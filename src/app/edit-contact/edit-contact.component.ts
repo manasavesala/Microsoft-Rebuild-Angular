@@ -19,4 +19,9 @@ export class EditContactComponent implements OnInit {
     this.contactService.updateContact(contactToUpdate);
   }
 
+  beginDeletingContact(contactToDelete){
+    if(confirm("Are you sure you want to delete this item from the inventory?")){
+      this.contactService.deleteContact(contactToDelete);
+    }
+  }
 }

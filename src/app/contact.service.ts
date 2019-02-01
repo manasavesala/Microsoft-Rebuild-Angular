@@ -25,5 +25,8 @@ export class ContactService {
                                 email: localUpdatedContact.email,
                                 phone: localUpdatedContact.phone});
   }
+  deleteContact(contactToDelete){
+    this.getContactById(contactToDelete.$key).remove();
+  }
 
 }
