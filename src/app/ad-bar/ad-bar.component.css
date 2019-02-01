@@ -1,6 +1,6 @@
 #pic
 {
-  width: 100%;
+  width: 110%;
 }
 
 .centered 
@@ -8,7 +8,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-150%, -610%);
+  transform: translate(-120%, -610%);
 }
 
 .down1 
@@ -16,7 +16,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-105%, -600%);
+  transform: translate(-87%, -600%);
 }
 
 .down2 

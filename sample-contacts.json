@@ -1,0 +1,11 @@
+{ "contacts": [{
+    "name": "Murali Medisetty",
+    "email": "mkm@microsoft.com",
+    "phone": "1234567859"
+    },
+    {
+    "name": "Manasa Vesala",
+    "email": "vesala@microsoft.com",
+    "phone": "2063940568"
+    }]
+}

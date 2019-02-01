@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AdBarComponent } from './ad-bar/ad-bar.component';
@@ -10,10 +10,22 @@ import { FooterComponent } from './footer/footer.component';
 import { TabComponent } from './tab/tab.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MixComponent } from './mix/mix.component';
-
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { routing } from './app.routing';
 import { WindowsComponent } from './windows/windows.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { ContactDetailsComponent } from './contact-details/contact-details.component';
+import { AdminComponent } from './admin/admin.component';
+import { ContactService } from './contact.service';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -25,13 +37,19 @@ import { WindowsComponent } from './windows/windows.component';
     TabComponent,
     WelcomeComponent,
     MixComponent,
-    WindowsComponent
+    WindowsComponent,
+    ContactsComponent,
+    ContactDetailsComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -15,7 +15,10 @@
 
 a 
 {
-  padding: 8px;
+  padding: 5px;
   color: black;
 }
 
+a:hover{
+  color: red;
+}

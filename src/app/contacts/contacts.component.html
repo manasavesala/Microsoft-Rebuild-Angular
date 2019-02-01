@@ -1,0 +1,25 @@
+<div class="container">
+<h2>List of contacts</h2>
+  <div *ngFor="let contact of contacts | async" class="panel panel-default container">
+    <div class="panel-body">
+        <div class="linkColor">
+            <h3 (click)="goToDetailPage(contact)"><em>{{contact.name}}</em></h3><br>
+        </div>
+        <!-- <div *ngIf="currentRoute === '/admin'">
+            {{contact.name}}
+            <hr>
+            <app-edit [selectedContact]="contact"></app-edit>
+        </div> -->
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
