@@ -16,4 +16,8 @@ export class ContactService {
     return this.database.object('contacts/' + contactId);
   }
 
+  addContact(newContact: Contact){
+    this.contacts.push(newContact);
+  }
+
 }

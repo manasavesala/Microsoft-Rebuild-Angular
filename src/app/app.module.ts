@@ -7,7 +7,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AdBarComponent } from './ad-bar/ad-bar.component';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
-import { TabComponent } from './tab/tab.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MixComponent } from './mix/mix.component';
 import { masterFirebaseConfig } from './api-keys';
@@ -19,6 +18,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactService } from './contact.service';
+import { FormsModule } from '@angular/forms';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -34,7 +34,6 @@ export const firebaseConfig = {
     AdBarComponent,
     DetailComponent,
     FooterComponent,
-    TabComponent,
     WelcomeComponent,
     MixComponent,
     WindowsComponent,
@@ -45,6 +44,7 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     routing,
+    FormsModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     HttpModule

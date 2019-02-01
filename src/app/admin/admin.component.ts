@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Contact } from '../contact.model';
+import { ContactService } from '../contact.service';
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
+constructor(private contactService: ContactService) { }
 
-  ngOnInit() {
-  }
+ngOnInit() {
 
+}
+
+submitForm(contactName: string, contactEmail: string, contactPhone: string) {
+  var newContact: Contact = new Contact(contactName, contactEmail, contactPhone);
+  this.contactService.addContact(newContact);
+}
 }
