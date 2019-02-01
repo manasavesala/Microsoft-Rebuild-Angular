@@ -8,6 +8,11 @@ import { AdBarComponent } from './ad-bar/ad-bar.component';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
 import { TabComponent } from './tab/tab.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { MixComponent } from './mix/mix.component';
+
+import { routing } from './app.routing';
+import { WindowsComponent } from './windows/windows.component';
 
 
 @NgModule({
@@ -17,10 +22,14 @@ import { TabComponent } from './tab/tab.component';
     AdBarComponent,
     DetailComponent,
     FooterComponent,
-    TabComponent
+    TabComponent,
+    WelcomeComponent,
+    MixComponent,
+    WindowsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
