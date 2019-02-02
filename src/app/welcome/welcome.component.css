@@ -1,13 +1,16 @@
-img{
+img
+{
     width: 100%;
 }
 h2,h1, h6
 {
     text-align: center;
 }
-.buttn{
+.buttn
+{
     margin-left:30%;
 }
-a{
+a
+{
     color:white;
 }

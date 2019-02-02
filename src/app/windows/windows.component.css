@@ -1,15 +1,20 @@
-img{
+img
+{
     width:110%;
 }
-.windows{
+.windows
+{
     text-align: center;
 }
-h5{
+h5
+{
     background-color: rgb(0, 132, 255);
 }
-.black{
+.black
+{
     color:black;
 }
-.container{
+.container
+{
     padding-bottom: 50px;
 }
